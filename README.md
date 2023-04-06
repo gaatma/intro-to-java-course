@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Introduction to Java
 
 [![Java Language](https://img.shields.io/badge/PLATFORM-OpenJDK-3A75B0.svg?style=for-the-badge)][1]
@@ -103,7 +102,7 @@ In the coming weeks, you will be actively writing Java code, and pushing your co
 # Object-Oriented Programming
 =======
 # Working With Primitives
->>>>>>> 9a73123 (Gifty Acquah primitives codes)
+
 
 [![Java Language](https://img.shields.io/badge/PLATFORM-OpenJDK-3A75B0.svg?style=for-the-badge)][1]
 [![JUnit5 Testing Framework](https://img.shields.io/badge/testing%20framework-JUnit5-26A162.svg?style=for-the-badge)][2]
@@ -417,8 +416,8 @@ Consider the following ideas:
 [1]: https://docs.oracle.com/javase/17/docs/api/index.html
 [2]: https://junit.org/junit5/
 [3]: https://maven.apache.org/
->>>>>>> cec9f65 (Car,showroom,app)
-=======
+
+
 ```shell
 mvnw.cmd clean test -Dtest=com.cbfacademy.strings.AppTest
 ```
@@ -506,5 +505,4 @@ System.out.println(++number2);
 [5]: exercises/java-primitives/src/test/java/com/cbfacademy/strings/AppTest.java
 [6]: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
 [7]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
->>>>>>> 9a73123 (Gifty Acquah primitives codes)
 
