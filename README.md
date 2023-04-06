@@ -507,3 +507,4 @@ System.out.println(++number2);
 [6]: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
 [7]: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
 >>>>>>> 9a73123 (Gifty Acquah primitives codes)
+
