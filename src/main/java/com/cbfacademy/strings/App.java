@@ -19,7 +19,7 @@ public class App {
         return word1.equals(word2);
 
     }
-         //Functions to compare Strings
+         
     public static String format(String item, int quantity, double price) {
         // TODO: Write code to return a string formatted as follows: "Item: [item]. Price: £[amount]. Quantity: [quantity]". The date should be formatted as DD/MM/YYYY, e.g. 24/10/2023
         // throw new RuntimeException("Not implemented");
