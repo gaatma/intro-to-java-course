@@ -22,7 +22,8 @@ public class CurrentAccount extends Account {
     // Override withdraw method to consider overdraft limit
     @Override
     public double withdraw(double requested) {
-        if (requested > 0 && (getBalance() - requested) >= -overdraftLimit) {
+        double availableFunds = getBalance() + overdraftLimit;
+        if (requested > 0 && requested <= availableFunds){
             return super.withdraw(requested);
         } else {
             return 0; // Insufficient funds within overdraft limit
