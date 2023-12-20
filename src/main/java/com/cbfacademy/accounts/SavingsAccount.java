@@ -16,12 +16,14 @@ public class SavingsAccount extends Account {
     }
 
     public void setInterestRate(double interestRate) {
+        if (interestRate >= 0){
         this.interestRate = interestRate;
+        }
     }
-
+  
     // Method to apply interest
     public void applyInterest() {
-        double interest = getBalance() * interestRate / 100;
+        double interest = getBalance() * interestRate;
         deposit(interest);
     }
 
