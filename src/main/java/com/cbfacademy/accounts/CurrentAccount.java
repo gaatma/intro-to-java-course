@@ -27,7 +27,7 @@ public class CurrentAccount extends Account {
         balance -= requested;
         return requested;
     } else {
-       return super.withdraw(requested);// Insufficient funds within overdraft limit
+       return super.withdraw(requested);
     }
 }
 

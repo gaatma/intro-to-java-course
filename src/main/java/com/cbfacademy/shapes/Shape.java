@@ -4,8 +4,8 @@ public abstract class Shape {
     private String name;
 
     // Constructor
-    public Shape() {
-        //this.name = name;
+    public Shape(String name) {
+        this.name = name;
     }
 
     // Abstract method to get the area of the shape
