@@ -3,7 +3,7 @@ package com.cbfacademy.accounts;
 public class Account {
     // Instance variables
     private int accountNumber;
-    private double balance;
+    protected double balance;
 
     // Constructor
     public Account(int accountNumber, double balance) {
