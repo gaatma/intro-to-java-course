@@ -20,7 +20,7 @@ public class PaintTest {
     @Test
     @DisplayName("getAmount() method calculates amount correctly")
     public void getAmount_CalculatesAmountCorrectly() {
-        Shape shape = new Shape() {
+        Shape shape = new Shape(null) {
             @Override
             public double getArea() {
                 return 50.0;

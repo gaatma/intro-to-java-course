@@ -5,7 +5,7 @@ public class Sphere extends Shape {
 
     // Constructor
     public Sphere(double radius) {
-        super();
+        super("Sphere");
         this.radius = radius;
     }
 

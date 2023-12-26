@@ -6,10 +6,9 @@ public class Cylinder extends Shape {
 
     // Constructor
     public Cylinder(double radius, double height) {
-        super();
+        super("Cylinder");
         this.radius = radius;
         this.height = height;
-        
     }
 
     // Override getArea method for Cylinder
