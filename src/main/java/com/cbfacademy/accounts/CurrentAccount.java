@@ -22,13 +22,14 @@ public class CurrentAccount extends Account {
     // Override withdraw method to consider overdraft limit
     @Override
     public double withdraw(double requested) {
-        double availableFunds = getBalance() + overdraftLimit;
-        if (requested > 0 && requested <= availableFunds){
-            return super.withdraw(requested);
-        } else {
-            return 0; // Insufficient funds within overdraft limit
-        }
+        double availableFunds = balance + overdraftLimit;
+    if (requested <= availableFunds) {
+        balance -= requested;
+        return requested;
+    } else {
+       return super.withdraw(requested);// Insufficient funds within overdraft limit
     }
+}
 
     // Override toString method for better representation
     @Override
