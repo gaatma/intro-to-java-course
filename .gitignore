@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -29,6 +30,8 @@ hs_err_pid*
 # VS Code
 .vscode/
 =======
+=======
+>>>>>>> 9a73123 (Gifty Acquah primitives codes)
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -63,5 +66,9 @@ build/
 .vscode/
 
 ### Mac OS ###
+<<<<<<< HEAD
 .DS_Store
 >>>>>>> cec9f65 (Car,showroom,app)
+=======
+.DS_Store
+>>>>>>> 9a73123 (Gifty Acquah primitives codes)
