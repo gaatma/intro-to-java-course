@@ -32,7 +32,7 @@ catch (Exception e) {
     
 }
 ```
-
+Yes, the provided code is legal in Java. The `try` block is followed by a `finally` block, which is a valid construct. The `finally` block is used to specify a block of code that will be executed no matter what happens in the `try` block.
 What is wrong with using this type of exception handler?
 
 ### Question 3
@@ -48,6 +48,7 @@ try {
 
 }
 ```
+Yes, there is an issue with the provided code, and it will not compile. In Java, when you have multiple catch blocks, they must be ordered from the most specific exception type to the most general. In this case, ArithmeticException is a subclass of Exception, so it is more specific. Therefore, the order of catch blocks should be reversed for it to compile correctly. Here's the corrected version:
 
 ### Question 4
 
@@ -60,7 +61,7 @@ The above code produces (choose 1):
 
 - [ ] an error
 - [ ] a checked exception
-- [ ] an unchecked exception
+- [Answer ] an unchecked exception
 - [ ] a compile error
 - [ ] no exception
 
@@ -71,7 +72,7 @@ The JVM starts running your program, but the JVM can't find the Java platform cl
 
 What happens (choose 1):
 
-- [ ] an error
+- [Answer ] an error
 - [ ] a checked exception
 - [ ] an unchecked exception
 - [ ] a compile error
